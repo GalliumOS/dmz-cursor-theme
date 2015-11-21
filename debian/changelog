@@ -1,0 +1,52 @@
+dmz-cursor-theme (0.4.5ubuntu1) trusty; urgency=medium
+
+  * Added a 28x28 size
+
+ -- Hugh Greenberg <hugh@galliumos.org>  Fri, 20 Nov 2015 11:12:07 +0100
+
+dmz-cursor-theme (0.4.4ubuntu1) trusty; urgency=medium
+
+  * Resynchronize on Debian, remaining change: Use a priority higher than 
+    gnome-themes-standard to keep being the default. 
+
+ -- Sebastien Bacher <seb128@ubuntu.com>  Fri, 17 Jan 2014 11:12:07 +0100
+
+dmz-cursor-theme (0.4.4) unstable; urgency=low
+
+  * Fix the alternate priority of the white cursors to be less than Debian's
+    default in gnome-themes-standard. 
+
+ -- Iain Lane <laney@debian.org>  Mon, 09 Sep 2013 12:12:20 +0000
+
+dmz-cursor-theme (0.4.3) unstable; urgency=low
+
+  * Mention the renderpngs.py license in debian/copyright. Thanks Julien 
+    Cristau for noticing.
+  * Fix color-picker and crosshair, which mistakenly reference other 
+    icons. Reported by Luca Bruno.
+
+ -- Josselin Mouette <joss@debian.org>  Sat, 18 Sep 2010 09:58:21 +0200
+
+dmz-cursor-theme (0.4.2) unstable; urgency=low
+
+  * Standards version is 3.9.1.
+  * Update to latest git version.
+  * Update copyright, with new license: CC BY-SA 3.0.
+  * Build the theme from the PNG files. Keep the SVG around so that 
+    all the source is here.
+  * Require x11-apps (for xcursorgen) for the build.
+  * Bump DMZ-White priority to 90, since it is very neutral.
+
+ -- Josselin Mouette <joss@debian.org>  Sun, 05 Sep 2010 18:14:48 +0200
+
+dmz-cursor-theme (0.4.1) unstable; urgency=low
+
+  * Add cursor.theme files for the default system theme.
+
+ -- Josselin Mouette <joss@debian.org>  Thu, 24 May 2007 22:25:24 +0200
+
+dmz-cursor-theme (0.4) unstable; urgency=low
+
+  * Initial release (closes: #389266).
+
+ -- Josselin Mouette <joss@debian.org>  Thu, 24 May 2007 20:22:06 +0200
