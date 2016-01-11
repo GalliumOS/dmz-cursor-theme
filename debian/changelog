@@ -1,3 +1,9 @@
+dmz-cursor-theme (0.4.4ubuntu1-galliumos1) trusty; urgency=medium
+
+  * Set package version to match provenance
+
+ -- reynhout <reynhout@galliumos.org>  Sun, 10 Jan 2016 21:05:33 +0000
+
 dmz-cursor-theme (0.4.5ubuntu1) trusty; urgency=medium
 
   * Added a 28x28 size
