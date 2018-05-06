@@ -6,11 +6,14 @@ Source: dmz-cursor-theme
 Section: gnome
 Priority: optional
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
-XSBC-Original-Maintainer: Josselin Mouette <joss@debian.org>
-Uploaders: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>, Iain Lane <laney@debian.org>, Josselin Mouette <joss@debian.org>
-Build-Depends: debhelper (>= 4.1), cdbs, gnome-pkg-tools
-Build-Depends-Indep: x11-apps
-Standards-Version: 3.9.1
+XSBC-Original-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Uploaders: Iain Lane <laney@debian.org>, Jeremy Bicha <jbicha@debian.org>, Josselin Mouette <joss@debian.org>
+Build-Depends: debhelper (>= 11),
+               gnome-pkg-tools,
+               x11-apps
+Standards-Version: 4.1.2
+Vcs-Git: https://anonscm.debian.org/git/pkg-gnome/dmz-cursor-theme.git
+Vcs-Browser: https://anonscm.debian.org/git/pkg-gnome/dmz-cursor-theme.git
 
 Package: dmz-cursor-theme
 Architecture: all
