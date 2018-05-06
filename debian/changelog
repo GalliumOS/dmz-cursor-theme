@@ -1,22 +1,35 @@
-dmz-cursor-theme (0.4.4ubuntu1) trusty; urgency=medium
+dmz-cursor-theme (0.4.5ubuntu1) bionic; urgency=medium
 
-  * Resynchronize on Debian, remaining change: Use a priority higher than 
-    gnome-themes-standard to keep being the default. 
+  * Sync with Debian. Remaining change:
+    - Use a higher priority than the Adwaita cursor theme from
+      adwaita-icon-theme
 
- -- Sebastien Bacher <seb128@ubuntu.com>  Fri, 17 Jan 2014 11:12:07 +0100
+ -- Jeremy Bicha <jbicha@ubuntu.com>  Sun, 24 Dec 2017 20:02:14 -0500
+
+dmz-cursor-theme (0.4.5) unstable; urgency=medium
+
+  * Add debian/gbp.conf
+  * Add Vcs fields
+  * Update Maintainer
+  * Bump Standards-Version to 4.1.2
+  * Switch from cdbs to dh
+  * Bump debhelper compat to 11
+  * Explicitly use 3.0 (native)
+
+ -- Jeremy Bicha <jbicha@debian.org>  Mon, 18 Dec 2017 13:00:11 -0500
 
 dmz-cursor-theme (0.4.4) unstable; urgency=low
 
   * Fix the alternate priority of the white cursors to be less than Debian's
-    default in gnome-themes-standard. 
+    default in gnome-themes-standard.
 
  -- Iain Lane <laney@debian.org>  Mon, 09 Sep 2013 12:12:20 +0000
 
 dmz-cursor-theme (0.4.3) unstable; urgency=low
 
-  * Mention the renderpngs.py license in debian/copyright. Thanks Julien 
+  * Mention the renderpngs.py license in debian/copyright. Thanks Julien
     Cristau for noticing.
-  * Fix color-picker and crosshair, which mistakenly reference other 
+  * Fix color-picker and crosshair, which mistakenly reference other
     icons. Reported by Luca Bruno.
 
  -- Josselin Mouette <joss@debian.org>  Sat, 18 Sep 2010 09:58:21 +0200
@@ -26,7 +39,7 @@ dmz-cursor-theme (0.4.2) unstable; urgency=low
   * Standards version is 3.9.1.
   * Update to latest git version.
   * Update copyright, with new license: CC BY-SA 3.0.
-  * Build the theme from the PNG files. Keep the SVG around so that 
+  * Build the theme from the PNG files. Keep the SVG around so that
     all the source is here.
   * Require x11-apps (for xcursorgen) for the build.
   * Bump DMZ-White priority to 90, since it is very neutral.
