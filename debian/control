@@ -7,7 +7,7 @@ Section: gnome
 Priority: optional
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 XSBC-Original-Maintainer: Josselin Mouette <joss@debian.org>
-Uploaders: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>, Iain Lane <laney@debian.org>, Josselin Mouette <joss@debian.org>
+Uploaders: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>, Josselin Mouette <joss@debian.org>
 Build-Depends: debhelper (>= 4.1), cdbs, gnome-pkg-tools
 Build-Depends-Indep: x11-apps
 Standards-Version: 3.9.1
